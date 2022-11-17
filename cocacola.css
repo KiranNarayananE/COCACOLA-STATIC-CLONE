@@ -1,0 +1,158 @@
+body{
+    font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif;
+    font-style: normal;
+    color: #333333;
+    border: 0%;
+    margin: 0;
+}
+.logo{
+    padding: 12px;
+    
+}
+nav{
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #797979;
+    line-height: 1.375rem;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   width: 100%;
+   position: fixed;
+   z-index: 3;
+}
+nav img{
+    width: 200px;
+    height: 32px;
+}
+nav h1{
+    font-size: 1.125rem;
+}
+.navigation:hover{
+    background-color: red;
+}
+.navigation2:hover{
+    background-color:#fd7e14;
+}
+.navigation3:hover{
+    background-color:#20c997;
+}
+.navigation4:hover{
+    background-color:#17a2b8;
+}
+.navigation5:hover{
+    background-color: #ffc107;
+}
+.navigation6:hover{
+    background-color :#6610f2;
+    ;
+}
+section{
+    position: relative;
+    
+}
+section img{
+    width: 100%;
+    height: 700px;
+    
+
+}
+.image div{
+position: absolute;
+top: 0%;
+left: 0%;
+color: rgba(255,255,255,1.00);
+font-size: 1.75rem;
+width: 400px;
+padding-top: 80px;
+padding-left: 100px;
+font-style: inherit;
+}
+.image1 {
+    width:100%;
+    position: relative;
+    border: 0cm;
+}
+.image1 div{
+position: absolute;
+top: 0%;
+right: 0%;
+color: rgba(255,255,255,1.00);
+font-size: 1.75rem;
+width: 400px;
+padding-top: 80px;
+padding-right: 100px;
+font-style: inherit;
+}
+.image2 {
+    width:100%;
+    position: relative;
+    border: 0cm;
+}
+.image2 div{
+position: absolute;
+top: 150px;
+left: 0%;
+color: rgba(255,255,255,1.00);
+font-size: 1.75rem;
+width: 400px;
+padding-top: 80px;
+padding-left: 100px;
+font-style: inherit;
+
+}
+.image3 {
+    width:100%;
+    position: relative;
+    border: 0cm;
+}
+.image3 div{
+position: absolute;
+top: 150px;
+right: 0%;
+color: rgba(255,255,255,1.00);
+font-size: 1.75rem;
+width: 400px;
+padding-top: 80px;
+padding-right: 100px;
+font-style: inherit;
+}
+footer{
+    padding: 50px 30px;
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    
+    
+}
+footer img {
+    width: 200px;
+    height: 32px;
+}
+.footernavigation{
+    display: flex;
+    flex-direction: row;
+     
+}
+.footernavigation div{
+    padding-left: 20px;
+    font-weight: 200;
+    
+}
+.subfooter{
+    padding-top: 0%;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    
+}
+.subfooter div{
+    text-decoration: none;
+}
+.subfooter a{
+ padding-right: 10px;
+ text-decoration: none;
+ color: #333333;
+}
